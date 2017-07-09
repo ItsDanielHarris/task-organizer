@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.625" name="SeaCowDataClasses">
+  <DataContextMoniker Name="/SeaCowDataClassesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="49f5c7d9-35a8-40f2-bd69-b6b49c9109fe" absoluteBounds="3.75, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/SeaCowDataClassesDataContext/Task" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e6031a65-ec20-4171-bcd2-2fa992d49270" absoluteBounds="3.7649999999999997, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e0d11137-9336-4745-bbf2-224a4e7cf945" absoluteBounds="1.375, 0.5, 2, 7.9245426432291648">
+      <DataClassMoniker Name="/SeaCowDataClassesDataContext/Contact" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6b27adba-6b48-42cf-9613-08d07ab85c77" absoluteBounds="1.3900000000000001, 0.96, 1.9700000000000002, 7.3645426432291661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

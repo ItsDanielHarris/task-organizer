@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Seacow Organizer.exe" version="1.0.1.5" publicKeyToken="bcc22fde55befbf4" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="manatee.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Seacow Organizer" version="1.0.1.5" publicKeyToken="BCC22FDE55BEFBF4" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Seacow Organizer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DevComponents.DotNetBar2.dll" size="3432960">
+      <assemblyIdentity name="DevComponents.DotNetBar2" version="8.0.0.0" publicKeyToken="5FD520D36328F741" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>qgtC05R7aCZ/+RHP19d0M9R5gP0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.ReportViewer.Common.dll" size="6388088">
+      <assemblyIdentity name="Microsoft.ReportViewer.Common" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>QiAil54/CFh8DCuvJi9aLunfT/I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.ReportViewer.DataVisualization.dll" size="3875728">
+      <assemblyIdentity name="Microsoft.ReportViewer.DataVisualization" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>C00gTpjMqMiubzHKtWTHxa9nhn8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.ReportViewer.ProcessingObjectModel.dll" size="92056">
+      <assemblyIdentity name="Microsoft.ReportViewer.ProcessingObjectModel" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>hxmvXGc3th4oLXBuGVIobt9lhjg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.ReportViewer.WinForms.dll" size="546688">
+      <assemblyIdentity name="Microsoft.ReportViewer.WinForms" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>y1gucs00/+kgYr+kyePEt2dBkds=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="mkc_ColorCombobox.dll" size="24576">
+      <assemblyIdentity name="mkc_ColorCombobox" version="1.0.0.2" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>JjkkDaROKdhXxACX0CsPHbQWotA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Seacow Organizer.exe" size="3943824">
+      <assemblyIdentity name="Seacow Organizer" version="1.0.1.5" publicKeyToken="BCC22FDE55BEFBF4" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>y1rQcHXic9rzu01jS1+H/XZ032w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Database\SeaCowDatabase.mdf" size="2293760" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>F1r3ezYYwWvUjAKFsBQfzpwkZRY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Database\SeaCowDatabase_log.LDF" size="3538944" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>j1nhFRDw7gy2F+E8+caJutCIQqo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="manatee.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>TrABkUVONR4tw0o/ikDIzBA6BOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Readme.txt" size="4088">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>kT/1eh463fT7kFGMNBShbWJ0rIo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Seacow Organizer.exe.config" size="4943">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>VVC9DmHD9nUV2ogxUgEGble0Zkw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="sound.wav" size="66194">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>xDAJC1KIaUgun9r3uKS9t7PmFg0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DRAGON\Daniel" issuerKeyHash="f45c32edd813703a768a23bc41ff48f7847ac51c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>aTRis7GCo4QjkZXaxWcMaOqeZQ0=</DigestValue></Reference></SignedInfo><SignatureValue>jgIP7T0Fc1fRdXwQKT+3nd2Pe5uC9T4U09AZavD0TE9+OmolTHIgMkEsiIDqN8RB6wPM1a3pggQ/yEmGnHSpUHgfTJqRmyFaOt8idNsfgVRsxOGoVxF9+8qAbOBmciv99eXyPlN6nvX9d/nj6w1rQUcD1+zPiMFPiA4QYWH5z6M=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>9Sa8IaV6g+0WMXCOhxOJtRySZP81VWjaxWvJ0NHtiViJfIveXzwojNnCYvRKr+JejxsBJqH9UlgNq8T3xRtmWVBkmg7+Dh4jI2uuw60OtcVJKR8H4Z2mgFHhBY33WaEatvctRTYmo6JAEC4mdFarmqwRciNrxQd6rrHMHtYHRF0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0d659eea680c67c5da95912384a382b1b3623469" Description="" Url=""><as:assemblyIdentity name="Seacow Organizer.exe" version="1.0.1.5" publicKeyToken="bcc22fde55befbf4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DRAGON\Daniel</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>u4GqkcJ01cAnToB3ZJT/ORer8Mc=</DigestValue></Reference></SignedInfo><SignatureValue>omUczCvPMSlYuo+BgXCJ8l1wOWqufOIGtVBtc1wpi0bMkwDxcYH+2XV9lTtKoXl9tMaZSUCMNoTTWu0UKfHyAt2CaV6xACZ7Lzarukqs6Vg4VeRPr17j7/8ZrkLTHUDLVD3zGX3l4syCKK7kZEXQHIWj4Q6B/tuOShDEv/31se8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>9Sa8IaV6g+0WMXCOhxOJtRySZP81VWjaxWvJ0NHtiViJfIveXzwojNnCYvRKr+JejxsBJqH9UlgNq8T3xRtmWVBkmg7+Dh4jI2uuw60OtcVJKR8H4Z2mgFHhBY33WaEatvctRTYmo6JAEC4mdFarmqwRciNrxQd6rrHMHtYHRF0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQLzaG8ynueYVDJ8CMo1vdGjANBgkqhkiG9w0BAQUFADAlMSMwIQYDVQQDHhoARABSAEEARwBPAE4AXABEAGEAbgBpAGUAbDAeFw0xNzA3MDkxOTI4MTRaFw0xODA3MTAwMTI4MTRaMCUxIzAhBgNVBAMeGgBEAFIAQQBHAE8ATgBcAEQAYQBuAGkAZQBsMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD1JrwhpXqD7RYxcI6HE4m1HJJk/zVVaNrFa8nQ0e2JWIl8i95fPCiM2cJi9Eqv4l6PGwEmof1SWA2rxPfFG2ZZUGSaDv4OHiMja67DrQ61xUkpHwfhnaaAUeEFjfdZoRq29y1FNiajokAQLiZ0VquarBFyI2vFB3quscwe1gdEXQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAMfuZ1VRRo25LvFitgF0gNnTz2cmKISGqVptU9stXlrKg4G7JRE9mgZ7QZKCVRO/6+Pv6Dn5Z5P4xhhscPIbPkELWqVzctLKlQtcT7owIZ6kI5tSyi38OL7Pscpr2maWSk5cDQOsVwIOC1ojOfYLbBgghgU4MNdJQ45NiOvMIfqZ</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

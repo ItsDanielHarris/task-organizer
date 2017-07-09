@@ -1,0 +1,37 @@
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\obj\Debug\Seacow Organizer.vbprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\obj\Debug\SeacowOrganizer.About.resources
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\obj\Debug\SeacowOrganizer.Add_Contact.resources
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\obj\Debug\SeacowOrganizer.Add_Task.resources
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\obj\Debug\SeacowOrganizer.Edit_Contact.resources
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\obj\Debug\SeacowOrganizer.Edit_Task.resources
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\obj\Debug\SeacowOrganizer.Columns.resources
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\obj\Debug\SeacowOrganizer.History_Window.resources
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\obj\Debug\SeacowOrganizer.Main.resources
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\obj\Debug\SeacowOrganizer.Resources.resources
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\obj\Debug\SeacowOrganizer.Options.resources
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\obj\Debug\SeacowOrganizer.frm_Print_Contacts.resources
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\obj\Debug\SeacowOrganizer.frm_Print_Tasks.resources
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\obj\Debug\SeacowOrganizer.UserPrompt.resources
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\obj\Debug\SeacowOrganizer.View_Contacts.resources
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\obj\Debug\SeacowOrganizer.View_Tasks.resources
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\obj\Debug\Seacow Organizer.vbproj.GenerateResource.Cache
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\obj\Debug\RdlCompile.cache
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\obj\Debug\RdlCompile.compiled
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\bin\Debug\Seacow Organizer.exe.config
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\obj\Debug\Seacow Organizer.exe
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\obj\Debug\Seacow Organizer.xml
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\obj\Debug\Seacow Organizer.pdb
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\bin\Debug\Database\SeaCowDatabase.mdf
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\bin\Debug\Database\SeaCowDatabase_log.LDF
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\bin\Debug\manatee.ico
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\bin\Debug\Readme.txt
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\bin\Debug\sound.wav
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\bin\Debug\Seacow Organizer.exe.manifest
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\bin\Debug\Seacow Organizer.application
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\bin\Debug\Seacow Organizer.exe
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\bin\Debug\Seacow Organizer.pdb
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\bin\Debug\Seacow Organizer.xml
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\bin\Debug\mkc_ColorCombobox.dll
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\obj\Debug\Seacow Organizer.exe.manifest
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\obj\Debug\Seacow Organizer.application

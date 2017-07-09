@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SeaCowDatabase" Class="SeaCowDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\Database\SeaCowDatabase.mdf;Integrated Security=True;User Instance=True" SettingsObjectName="SeacowOrganizer.My.MySettings" SettingsPropertyName="SeaCowDatabaseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Tasks" Member="Tasks">
+    <Type Name="Task">
+      <Column Name="name" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="description" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="priority" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="time" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="status" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Contacts" Member="Contacts">
+    <Type Name="Contact">
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DisplayName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Nickname" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PrimaryEmail" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SecondaryEmail" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ScreenName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="WorkPhone" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="HomePhone" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FaxNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PagerNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MobileNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="HomeAddress" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="HomeAddress2" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="HomeCity" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="HomeState" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="HomeZipCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="HomeCountry" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="WorkAddress" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="WorkAddress2" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="WorkCity" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="WorkState" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="WorkZipCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="WorkCountry" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="JobTitle" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Department" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Organization" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="WebPage1" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="WebPage2" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BirthYear" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BirthMonth" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BirthDay" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Groups" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Gender" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Picture" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Custom4" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Notes" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

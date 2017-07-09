@@ -1,0 +1,2 @@
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\bin\Debug\SeaCow.exe.config
+C:\Users\Daniel\Documents\Visual Studio 2015\Projects\Seacow Organizer\SeaCow\bin\Debug\Seacow Organizer.exe.config
